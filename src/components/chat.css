@@ -1,53 +1,59 @@
-body{
+ .box_player {
+     background-image: url('https://www.wallpaperup.com/uploads/wallpapers/2015/05/07/681043/c25ba5ff9466970b15b6bf16ad4d284f-1000.jpg');
+     background-size : contain;
+     position        : relative;
+     width           : 584px;
+     margin          : auto;
+     height          : 1044px;
 
-    background-image: url('https://www.wallpaperup.com/uploads/wallpapers/2015/05/07/681043/c25ba5ff9466970b15b6bf16ad4d284f-1000.jpg');
-    background-size: cover;
-    
+     display: flex;
+
+     flex-wrap: wrap;
+ }
+
+ .box_player {
+     font-size: 30px;
+
+ }
+
+ .box_player img {
+     border-radius: 50%;
+     width        : 80px;
+ }
+
+ .rainbow-text {
+    font-size: 20px;
+     background             : linear-gradient(to right, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8b00ff);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+
+ @keyframes rainbow {
+     0% {
+         background-position: left;
+     }
+
+     100% {
+         background-position: right;
+     }
+ }
+
+.comment{
+    color: white;
 }
 
-.box_player {
-    position: relative;
-    width   : 2000px;
-    margin  : auto;
-    height  : 1000px;
+ .rainbow-text:hover {
+     transform: scale(1.1);
 
-    display: flex;
+ }
 
-    flex-wrap: wrap;
-}
+ .winner {
+     background-color: aliceblue;
+     z-index         : 999;
+     width           : 100%;
+     height          : 100vh;
+ }
 
-.box_player>div {}
-
-.box_player img {
-    border-radius: 50%;
-}
-
-.rainbow-text {
- color: white;
-}
-
-@keyframes rainbow {
-    0% {
-        background-position: left;
-    }
-
-    100% {
-        background-position: right;
-    }
-}
-
- 
-
-.rainbow-text:hover {
-    transform: scale(1.1);
-}
-
-.winner {
-    background-color: aliceblue;
-    z-index: 999;
-    width : 100%;
-    height: 100vh;
-}
-.winner >img{
-    width: 300px;
-}
+ .winner>img {
+     width: 300px;
+ }

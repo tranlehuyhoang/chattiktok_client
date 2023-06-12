@@ -54,8 +54,8 @@ function Chat() {
     <div className='box_player'>
       {messages &&
         messages.map((e, i) => (
-          <div key={i} style={{ position: 'absolute', top: `${e.top * 1000}px`, left: `${e.left * 2000}px` }}>
-            <div className='rainbow-text'>{e.comment}</div>
+          <div key={i} style={{ position: 'absolute', top: `${e.top * 1044}px`, left: `${e.left * 584}px` }}>
+            <div  className='comment' >{e.comment}</div>
             <div className='rainbow-text'>{e.username}</div>
             <img src={e.img} alt="" />
           </div>
@@ -64,6 +64,7 @@ function Chat() {
       {point == coin &&
         <div className='winner'>
           <h1>WINNER</h1>
+
           <div className='rainbow-text' style={{ fontSize: '100px' }}>faefaef</div>
           <img src="https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/11fb8c59264d2d4ede0abecf3c6abe4f~c5_100x100.webp?x-expires=1686704400&x-signature=81wEPpPGYwPROQ0TQq4I0qnamoY%3D" alt="" srcset="" />
           <button onClick={hehe}>reset</button>
