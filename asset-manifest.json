@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/chattiktok_client/static/css/main.b8b6e2b4.css",
+    "main.js": "/chattiktok_client/static/js/main.5c2f4bd2.js",
+    "index.html": "/chattiktok_client/index.html",
+    "main.b8b6e2b4.css.map": "/chattiktok_client/static/css/main.b8b6e2b4.css.map",
+    "main.5c2f4bd2.js.map": "/chattiktok_client/static/js/main.5c2f4bd2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8b6e2b4.css",
+    "static/js/main.5c2f4bd2.js"
+  ]
+}
